@@ -3,7 +3,7 @@ import numpy
 import os
 import time
 
-str_station = 'Konza'   #station name
+# str_station = 'Konza'   #station name	/test for git
 #different scenarios
 str_pre_list = ['Pr_cvm01', 'Pr_cvp01', 'Pr_cvp02', 'Pr_cvp03', 'Pr_di5', 'Pr_di10', 'Pr_di15', 'Pr_di30', 'Pr_di45', 'Pr_di60', 'Pr_dro', 'Pr_m10', 'Pr_m20', 'Pr_m30', 'Pr_m50', 'Pr_p10', 'Pr_p20', 'Pr_p30']
 
