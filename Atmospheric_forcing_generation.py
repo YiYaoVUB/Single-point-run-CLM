@@ -3,12 +3,11 @@ import numpy
 import os
 import time
 
-str_station = 'Konza'
-#str_pre_list = ['Pr_cvm01', 'Pr_cvp01', 'Pr_cvp02', 'Pr_cvp03', 'Pr_di5', 'Pr_di10', 'Pr_di15', 'Pr_di30', 'Pr_di45', 'Pr_di60', 'Pr_dro', 'Pr_m10', 'Pr_m20', 'Pr_m30', 'Pr_m50', 'Pr_p10', 'Pr_p20', 'Pr_p30']
-str_pre_list = ['Pr_m10', 'Pr_m20', 'Pr_m30', 'Pr_m50', 'Pr_p10', 'Pr_p20', 'Pr_p30', 'Pr_Ir_Low', 'Pr_Ir_Upl']
+str_station = 'Konza'   #station name
+#different scenarios
+str_pre_list = ['Pr_cvm01', 'Pr_cvp01', 'Pr_cvp02', 'Pr_cvp03', 'Pr_di5', 'Pr_di10', 'Pr_di15', 'Pr_di30', 'Pr_di45', 'Pr_di60', 'Pr_dro', 'Pr_m10', 'Pr_m20', 'Pr_m30', 'Pr_m50', 'Pr_p10', 'Pr_p20', 'Pr_p30']
 
-#str_pre_list = ['Pr_m20', 'Pr_m30', 'Pr_m50', 'Pr_p10', 'Pr_p20', 'Pr_p30']
-
+#Help to correct the unit of time
 time_skip = 732586
 time_skip = 730252  #Garraf
 time_skip = 724023  #Konza
